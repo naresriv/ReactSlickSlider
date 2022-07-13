@@ -1,0 +1,23 @@
+    .slick-slider {
+        width: 70%;
+    }
+    .slick-prev,
+    .slick-next {
+        //   border-radius: 0%;
+        top: 46%;
+        z-index: 1000;
+    }
+    .slick-prev {
+        left: -21%;
+    }
+    .slick-next {
+        right: -18%;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 3.5rem;
+        color: #909090;
+    }
+    .slick-dots {
+        display: none !important;
+    }
